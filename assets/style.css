@@ -1,0 +1,87 @@
+.nav-link {
+    transition: all 0.5s;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+    border-bottom: 1px solid #1c1c1c;
+}
+
+@media (max-width: 992px) {
+    body {
+        height: 656px;
+        background-color: #080808 !important;
+    }
+
+    .bg-white {
+        background-color: #1c1c1c !important;
+    }
+
+    .nav-link {
+        color: #ffffff;
+    }
+
+    .navbar-brand {
+        color: #ffffff;
+    }
+
+    .navbar-brand:hover {
+        color: #ffffff;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28, 255, 193, 7, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .navbar-toggler {
+        border: 1px solid #ffc107;
+    }
+
+    /* beranda */
+    .article1 h1 {
+        color: #ffffff;
+    }
+
+    .article1 .text-black {
+        color: #ffffff !important;
+    }
+
+    .article1 p {
+        color: #ffffff !important;
+    }
+
+    /* Konten */
+    .konten1 {
+        color: #ffffff;
+    }
+    .card {
+        background-color: #1c1c1c;
+    }
+
+    .card-title {
+        color: #ffc107;
+    }
+
+    .card-text {
+        color: #ffffff;
+    }
+
+    /* Galeri */
+    .galeri1 {
+        color: #ffffff;
+    }
+
+    .img-thumbnail {
+        background-color: #ffc107;
+    }
+
+    /* footer */
+    .bg-black {
+        background-color: #ffc107 !important;
+    }
+    footer .text-white {
+        color: #080808 !important;
+    }
+}
